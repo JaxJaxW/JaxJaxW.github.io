@@ -205,22 +205,25 @@ function getBrowserAndVersion()
 	};
 }
 
-class searchString {
-	constructor(paData) {
-		for (var i = 0; i < paData.length; i++) {
-			var lstrDataString = paData[i].string;
-			var lstrDataProp = paData[i].prop;
-
-			this.versionSearchString = paData[i].versionSearch || paData[i].identity;
-
-			if (lstrDataString) {
-				if (lstrDataString.indexOf(paData[i].subString) != -1) {
-					return paData[i].identity;
-				}
-			}
-			else if (lstrDataProp) {
+function searchString(paData) 
+{
+	for(var i = 0; i < paData.length; i++)	
+	{
+		var lstrDataString 	= paData[i].string;
+		var lstrDataProp 	= paData[i].prop;
+		
+		this.versionSearchString = paData[i].versionSearch || paData[i].identity;
+		
+		if(lstrDataString) 
+		{
+			if(lstrDataString.indexOf(paData[i].subString) != -1)
+			{
 				return paData[i].identity;
 			}
+		}
+		else if(lstrDataProp)
+		{
+			return paData[i].identity;
 		}
 	}
 }
