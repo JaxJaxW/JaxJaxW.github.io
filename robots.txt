@@ -1,2 +1,3 @@
 User-agent: *
 Disallow:
+Sitemap: https://jaxtonwillman.com/sitemap.xml
