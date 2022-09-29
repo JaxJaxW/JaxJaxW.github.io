@@ -30,7 +30,8 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 .icon.icon-youtube { background: url(/images/icons/youtube.svg) no-repeat; }
 .icon.icon-github { background: url(/images/icons/github.svg) no-repeat; }
 .icon.icon-phone { background: url(/images/icons/wordpress.svg) no-repeat; }
-.icon.icon-wordpress { background: url(/images/icons/wordpress.svg) no-repeat; }
+.icon.icon-saxena_white { background: url(/images/icons/saxena_white.webp) no-repeat; }
+.icon.icon-saxena_black { background: url(/images/icons/saxena_black.webp) no-repeat; }
 .icon.icon-ufcur { background: url(/images/icons/ufcur.webp) no-repeat; }
 .icon.icon-mywebsite { background: url(/images/favicon/favicon-32x32.webp) no-repeat; }
 .icon.icon-resume { background: url(/images/icons/resume.webp); }
