@@ -21,22 +21,22 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 .btn-primary:hover { background-color: #1c8784;  border-color: #1c8784; }
 
 .icon { display: inline-block; height: 32px; width: 32px; }
-.icon.icon-twitter { background: url(/images/icons/sm_icon_sprite.png) no-repeat; background-position: 0px 0px; }
-.icon.icon-linkedin { background: url(/images/icons/sm_icon_sprite.png) no-repeat; background-position: 0px -32px; }
-.icon.icon-skype { background: url(/images/icons/sm_icon_sprite.png) no-repeat; background-position: 0px -64px; }
-.icon.icon-email { background: url(/images/icons/sm_icon_sprite.png) no-repeat; background-position: 0px -96px; }
+.icon.icon-twitter { background: url(/images/icons/sm_icon_sprite.webp) no-repeat; background-position: 0px 0px; }
+.icon.icon-linkedin { background: url(/images/icons/sm_icon_sprite.webp) no-repeat; background-position: 0px -32px; }
+.icon.icon-skype { background: url(/images/icons/sm_icon_sprite.webp) no-repeat; background-position: 0px -64px; }
+.icon.icon-email { background: url(/images/icons/sm_icon_sprite.webp) no-repeat; background-position: 0px -96px; }
 
 .icon.icon.icon-linkedin2 { background: url(/images/icons/linkedin.svg) no-repeat; }
 .icon.icon-youtube { background: url(/images/icons/youtube.svg) no-repeat; }
 .icon.icon-github { background: url(/images/icons/github.svg) no-repeat; }
 .icon.icon-phone { background: url(/images/icons/wordpress.svg) no-repeat; }
 .icon.icon-wordpress { background: url(/images/icons/wordpress.svg) no-repeat; }
-.icon.icon-ufcur { background: url(/images/icons/ufcur.png) no-repeat; }
-.icon.icon-mywebsite { background: url(/images/favicon/favicon-32x32.png) no-repeat; }
-.icon.icon-resume { background: url(/images/icons/resume.png); }
+.icon.icon-ufcur { background: url(/images/icons/ufcur.webp) no-repeat; }
+.icon.icon-mywebsite { background: url(/images/favicon/favicon-32x32.webp) no-repeat; }
+.icon.icon-resume { background: url(/images/icons/resume.webp); }
 
 .jumbotron {
-	background: no-repeat center right fixed url(/images/background.jpg);
+	background: no-repeat center right fixed url(/images/background.webp);
 
 	-webkit-background-size: 100%; 
 	-moz-background-size: 100%; 
@@ -48,8 +48,8 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 	-o-background-size: cover;
 	background-size: cover;
 	
-	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/background.jpg', sizingMethod='scale')";
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/background.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/background.webp', sizingMethod='scale')";
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/background.webp', sizingMethod='scale');
 	
 	margin-bottom: 0px;
 	padding: 0px;
