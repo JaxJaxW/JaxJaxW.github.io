@@ -23,17 +23,13 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 
 /* ICONS */
 .icon { display: inline-block; height: 32px; width: 32px; }
-.icon.icon-twitter { background: url(/images/icons/sm_icon_sprite.webp) no-repeat; background-position: 0px 0px; }
-.icon.icon-linkedin { background: url(/images/icons/sm_icon_sprite.webp) no-repeat; background-position: 0px -32px; }
-.icon.icon-skype { background: url(/images/icons/sm_icon_sprite.webp) no-repeat; background-position: 0px -64px; }
-.icon.icon-email { background: url(/images/icons/sm_icon_sprite.webp) no-repeat; background-position: 0px -96px; }
-
-.icon.icon.icon-linkedin2 { background: url(/images/icons/linkedin.svg) no-repeat; }
-.icon.icon-youtube { background: url(/images/icons/youtube.svg) no-repeat; }
-.icon.icon-github { background: url(/images/icons/github.svg) no-repeat; }
-.icon.icon-phone { background: url(/images/icons/wordpress.svg) no-repeat; }
-.icon.icon-saxena_white { background: url(/images/icons/saxena_white.webp) no-repeat; }
-.icon.icon-saxena_black { background: url(/images/icons/saxena_black.webp) no-repeat; }
+.icon.icon.icon-linkedin-light { background: url(/images/icons/linkedin-light.webp) no-repeat; }
+.icon.icon.icon-linkedin-gray { background: url(/images/icons/linkedin-gray.webp) no-repeat; }
+.icon.icon.icon-email-light { background: url(/images/icons/email-light.webp) no-repeat; }
+.icon.icon-github-light { background: url(/images/icons/github-light.webp) no-repeat; }
+.icon.icon-github-dark { background: url(/images/icons/github-dark.webp) no-repeat; }
+.icon.icon-saxena-light { background: url(/images/icons/saxena-light.webp) no-repeat; }
+.icon.icon-saxena-dark { background: url(/images/icons/saxena-dark.webp) no-repeat; }
 .icon.icon-ufcur { background: url(/images/icons/ufcur.webp) no-repeat; }
 .icon.icon-mywebsite { background: url(/images/favicon/favicon-32x32.webp) no-repeat; }
 .icon.icon-resume { background: url(/images/icons/resume.webp); }
