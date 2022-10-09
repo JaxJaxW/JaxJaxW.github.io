@@ -139,30 +139,6 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 #abilities ul > li:hover .ability-score .glyphicon { margin-left: 2px; } 
 
 
-/* INTERESTS */
-#interests .left { float: left; }
-#interests .right { float: right; }
-#interests img { width: 80%; height: auto; }
-#interests .right img { float: right; }
-#interests .interest-content { padding: 40px 0px; }
-
-#interests .row:hover .left img {
-	transform: rotate(-12deg); /* W3C */
-	-webkit-transform: rotate(-12deg); /* Safari & Chrome */
-	-moz-transform: rotate(-12deg); /* Firefox */
-	-ms-transform: rotate(-12deg); /* Internet Explorer */
-	-o-transform: rotate(-2deg); /* Opera */
-}
-
-#interests .row:hover .right img {
-	transform: rotate(12deg); /* W3C */
-	-webkit-transform: rotate(12deg); /* Safari & Chrome */
-	-moz-transform: rotate(12deg); /* Firefox */
-	-ms-transform: rotate(12deg); /* Internet Explorer */
-	-o-transform: rotate(12deg); /* Opera */
-}
-
-
 /* PROJECTS */
 #projects .row > div { margin-bottom: 30px; }
 #projects h3 { text-align: center; }
