@@ -62,7 +62,7 @@
 
 <!-- PROFILE -->
 <div class="background-white">
-	<div id="profile" class="container">
+	<div id="profile" id="research" class="container">
 
 		<div class="alert alert-danger">
 			<strong>WEBSITE ALERT: THIS WEBSITE IS CURRENTLY ONGOING DEVELOPMENT. This page is REALLY far from finished, none of my research has been added yet.</strong>
@@ -70,24 +70,23 @@
 	
 		<h2>Research</h2>
 		<p class="lead">The goal of this webpage is to showcase my research in a very cool way and link to the GitHub </p>
-		<div class="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/KaswqA-w9zY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-		
-		<br>
-
-		<div class="center" id="willman-poster" style="height: 360px; width: 500px;"></div>
 
 		<br>
 
-		<div class="center" id="willman-paper" style="height: 360px; width: 500px;"></div>
-
-		<br>
-
-		<div class="center">
+		<div id="github" class="center">
 			<a class="btn btn-primary resume" href="https://github.com/saxenalab-neuro/controlled-movement" target="_blank">
 				<span class="icon icon-github-dark"></span>
 				controlled-movement
 			</a>
 		</div>
+		
+		<br>
+
+		<div class="center" id="willman-poster" style="height: 600px; width: 800;"></div>
+
+		<br>
+
+		<div class="center" id="willman-paper" style="height: 1100px; width: 850px;"></div>
 
 		<hr id="aboutme">
 
@@ -238,22 +237,15 @@
 	gtag('config', 'G-BGX3Q12MDL');
 </script>
 
-<!-- Adobe PDF Viewer -->
-<script src="https://documentservices.adobe.com/view-sdk/viewer.js"></script>
-<script type="text/javascript">
-	document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
-		var adobeDCView = new AdobeDC.View({clientId: "bb559fcb72034fad92b9790f2e513d5a", divId: "willman-poster"});
-		adobeDCView.previewFile({
-			content:{location: {url: "/assets/Willman%20Poster.pdf"}},
-			metaData:{fileName: "Willman Poster.pdf"}
-		}, {embedMode: "SIZED_CONTAINER"});
+<!-- PDF Object Viewer -->
+<script src="/js/pdfobject.min.js"></script>
+<script>
+var options = {
+   pdfOpenParams: { navpanes: '0' }
+};
 
-		var adobeDCView = new AdobeDC.View({clientId: "bb559fcb72034fad92b9790f2e513d5a", divId: "willman-paper"});
-		adobeDCView.previewFile({
-			content:{location: {url: "/assets/Willman%20Paper.pdf"}},
-			metaData:{fileName: "Willman Paper.pdf"}
-		}, {embedMode: "SIZED_CONTAINER"});
-	});
+PDFObject.embed("/assets/Willman%20Poster.pdf", "#willman-poster", options);
+PDFObject.embed("/assets/Willman%20Paper.pdf", "#willman-paper", options);
 </script>
 
 
