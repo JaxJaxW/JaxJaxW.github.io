@@ -8,7 +8,6 @@ $(document).ready(function()
 	applyResize();
 	checkHash();
 	checkBrowser();
-	//applyAbilityScore();
 });
 
 /* HEADER FUNCTIONS */
@@ -138,42 +137,6 @@ function checkHash()
 		$('a[href="'+ lstrHash +'"]').trigger('click');
 	}
 }
-
-/* ABILITY FUNCTIONS */
-
-// function applyAbilityScore()
-// {
-// 	var $filledStar = $('<span class="glyphicon glyphicon-star filled"></span>');
-// 	var $emptyStar = $('<span class="glyphicon glyphicon-star "></span>');
-// 	//var elements = document.getElementsByClassName('ability-score');
-// 	$('.ability-score').each(function(_, s)
-// 	{
-// 		console.log(s);
-// 		var stars = Number($(s).attr('stars'));
-// 		console.log(stars);
-
-// 		if (stars > 0) {
-// 			for (var i = 0; i < stars; i++) {
-// 				$(s).append($filledStar.clone());
-// 			}
-// 			for (var i = 0; i < 5 - stars; i++) {
-// 				$(s).append($emptyStar.clone());
-// 			}
-// 		}
-
-		
-
-// 	});
-// }
-
-// function addAbility()
-// {
-// 	$('<li><span class="ability-title">UML</span><span class="ability-score">[contenthere]</span></li>');
-// 	var lstrAbility = $('#ability').val();
-// 	var lstrStars = $('#stars').val();
-	
-// 	$('#abilities').append("<div class='ability-score' stars='" + lstrStars + "'>" + lstrAbility + "</div>");
-// }
 
 /* IE7- FALLBACK FUNCTIONS */
 
